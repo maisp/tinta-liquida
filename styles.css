@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 70%;
+}
+
+.container {
+  width: 100%;
+}
+
+.estilo-Footer {
+  background-color: #ffc9c1;
+}
+
+.bibliografia {
+  list-style-type: none;
+}
+
+.cubierta {
+  width: 500px;
+}
+
+@media (min-width: 1200px) {
+  .footer-media {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.contenido-footer {
+  font-size: 15px;
+  background-color: #333;
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+}
